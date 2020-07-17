@@ -3,3 +3,10 @@ html {
     color: hsl(120, 100%, 5%);
     font-family: 'Open-Sans', sans-serif;
 }
+
+#image {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+    height: auto;
+}
