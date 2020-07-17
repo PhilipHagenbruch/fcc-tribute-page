@@ -2,6 +2,12 @@ html {
     background-color: hsl(0, 0%, 90%);
     color: hsl(120, 100%, 5%);
     font-family: 'Open-Sans', sans-serif;
+    margin: 1em;
+}
+
+#title, h2 {
+    text-align: center;
+    text-transform: capitalize;
 }
 
 #image {
@@ -9,9 +15,25 @@ html {
     margin: auto;
     max-width: 100%;
     height: auto;
+    box-shadow: 2px 2px 2px black ;
+}
+
+#img-caption {
+    margin: 3px;
 }
 
 #tribute-info {
     display: grid;
     grid-template-columns: auto auto;
+    column-gap: 1em;
+    row-gap: 3px;
+}
+
+.info-date {
+    justify-self: end;
+}
+
+#tribute-link {
+    display: block;
+    text-align: right;
 }
