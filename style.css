@@ -10,3 +10,8 @@ html {
     max-width: 100%;
     height: auto;
 }
+
+#tribute-info {
+    display: grid;
+    grid-template-columns: auto auto;
+}
